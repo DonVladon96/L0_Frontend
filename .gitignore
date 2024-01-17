@@ -22,3 +22,14 @@ yarn-error.log*
 
 .idea
 .vscode
+
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+build
+
+.env

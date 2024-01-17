@@ -1,0 +1,30 @@
+.header__button-span {
+  display: block;
+  position: relative;
+  background: #FFF;
+  width: 28px;
+  height: 4px;
+  border-radius: 3px;
+}
+
+.header__button-span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background: #FFF;
+  top: -10px;
+  width: 28px;
+  height: 4px;
+  border-radius: 3px;
+}
+
+.header__button-span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background: #FFF;
+  bottom: -10px;
+  width: 28px;
+  height: 4px;
+  border-radius: 3px;
+}

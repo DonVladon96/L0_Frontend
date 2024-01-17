@@ -2,3 +2,11 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/body-container/body-container.css);
+@import url(../blocks/main-page/main-page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button-span/header__button-span.css);
+
+/* @import url(); */

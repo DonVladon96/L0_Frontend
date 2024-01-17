@@ -1,0 +1,10 @@
+.header__button {
+  background-color: inherit;
+  cursor: pointer;
+  transition: border-color .1s ease-out;
+  padding: 11px 9px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 8px;
+}
