@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change afterPath="$PROJECT_DIR$/src/blocks/header/__button/header__button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/header/__logo/header__logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/header/__menu/header__menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/main-content/main-content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/main-page/main-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/body-container/body-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/body-container/body-container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/__button-span/header__button-span.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +134,7 @@
       <workItem from="1705404160301" duration="2864000" />
       <workItem from="1705495435554" duration="653000" />
       <workItem from="1705496118564" duration="9000" />
-      <workItem from="1705497772976" duration="3111000" />
+      <workItem from="1705497772976" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />
