@@ -8,23 +8,25 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button-span/header__button-span.css);
+
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__search-button/header__search-button.css);
 @import url(../blocks/header/__search-input/header__search-input.css);
 @import url(../blocks/header/__search-container/header__search-container.css);
 
-@import url(../blocks/header/__button-span/header__button-span.css);
-@import url(../blocks/header/__button-span/header__button-span.css);
+@import url(../blocks/header/__nav-container/header__nav-container.css);
+@import url(../blocks/header/__profile/header__profile.css);
+@import url(../blocks/header/__profile-icon/header__profile-icon.css);
+@import url(../blocks/header/__profile-text/header__profile-text.css);
+@import url(../blocks/header/__basket/.header__basket.css);
+@import url(../blocks/header/__basket-icon/header__basket-icon.css);
+@import url(../blocks/header/__btn-icon/header__btn-icon.css);
+@import url(../blocks/header/__profile-wrapper/header__profile-wrapper.css);
+@import url(../blocks/header/__basket-count/header__basket-count.css);
 
-@import url(../blocks/header/__button-span/header__button-span.css);
+/*@import url(../blocks/header/);*/
 
-@import url(../blocks/header/__button-span/header__button-span.css);
 
-@import url(../blocks/header/__button-span/header__button-span.css);
-
-@import url(../blocks/header/__button-span/header__button-span.css);
-
-@import url(../blocks/header/__button-span/header__button-span.css);
 
 
 

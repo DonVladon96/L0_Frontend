@@ -1,0 +1,5 @@
+.header__nav-container {
+  display: flex;
+  column-gap: 36px;
+  padding-right: 22px;
+}

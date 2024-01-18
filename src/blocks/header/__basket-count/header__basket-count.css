@@ -1,0 +1,16 @@
+.header__basket-count {
+  box-sizing: border-box;
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  margin: 0;
+  padding: 0 4px;
+  min-width: 16px;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  border-radius: 16px;
+  background:  #F55123;
+}
