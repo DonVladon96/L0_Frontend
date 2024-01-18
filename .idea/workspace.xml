@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__search-button/header__search-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__search-container/header__search-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__search-input/header__search-input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__search/header__search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/basket-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/profile-icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/__logo/header__logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +144,12 @@
       <workItem from="1705404160301" duration="2864000" />
       <workItem from="1705495435554" duration="653000" />
       <workItem from="1705496118564" duration="9000" />
-      <workItem from="1705497772976" duration="3318000" />
+      <workItem from="1705497772976" duration="3472000" />
+      <workItem from="1705504411485" duration="630000" />
+      <workItem from="1705510399324" duration="12000" />
+      <workItem from="1705510420490" duration="5000" />
+      <workItem from="1705572307634" duration="681000" />
+      <workItem from="1705579951592" duration="6831000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />

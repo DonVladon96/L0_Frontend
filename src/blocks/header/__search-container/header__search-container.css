@@ -1,0 +1,77 @@
+.header__search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+
+.header__nav-container {
+  display: flex;
+  column-gap: 36px;
+  padding-right: 22px;
+}
+
+.header__profile {
+
+}
+
+.header__profile-icon {
+  background-image: url("../../../images/profile-icon.svg");
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.header__profile-text {
+  color: #FFF;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+}
+
+.header__basket {
+
+}
+
+.header__basket-icon {
+  background-image: url("../../../images/basket-icon.svg");
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.header__btn-icon {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__profile-wrapper {
+  width: 28px;
+  height: 28px;
+  padding: 0 13px 3px 15px
+}
+
+.header__basket-count {
+  box-sizing: border-box;
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  margin: 0;
+  padding: 0 4px;
+  min-width: 16px;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  border-radius: 16px;
+  background:  #F55123;
+}
+

@@ -1,0 +1,5 @@
+.header__search {
+  display: block;
+  margin: 2px 31px 0 29px;
+  flex-grow: 1;
+}

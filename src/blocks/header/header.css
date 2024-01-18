@@ -4,5 +4,6 @@
   padding-left: 24px;
   padding-right: 3px;
   display: flex;
+  align-items: center;
 }
 
