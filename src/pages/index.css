@@ -31,8 +31,8 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/selected-cards/__selected-checkbox-all/selected-cards__selected-checkbox-all.css);
 @import url(../blocks/selected-cards/__text/selected-cards__text.css);
-/*@import url(../blocks/header/);*/
-/*@import url(../blocks/header/);*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card-list/card-list.css);
 /*@import url(../blocks/header/);*/
 /*@import url(../blocks/header/);*/
 /*@import url(../blocks/header/);*/

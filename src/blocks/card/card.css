@@ -1,0 +1,13 @@
+.card {
+  list-style: none;
+  display: flex;
+}
+
+.card__input-wrapper {
+  padding-top: 13px;
+  width: 22px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+
+}

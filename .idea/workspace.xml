@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change afterPath="$PROJECT_DIR$/src/blocks/main-cards/main-cards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/selected-cards/__selected-checkbox-all/selected-cards__selected-checkbox-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/selected-cards/__text/selected-cards__text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/selected-cards/__title/main-cards__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/selected-cards/selected-cards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/checkbox-null.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/checkbox-png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/card-list/card-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/card/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tshots.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
     </list>
@@ -124,9 +118,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build (1)" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +149,7 @@
       <workItem from="1705510420490" duration="5000" />
       <workItem from="1705572307634" duration="681000" />
       <workItem from="1705579951592" duration="8432000" />
-      <workItem from="1705650259539" duration="6794000" />
+      <workItem from="1705650259539" duration="8588000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />
