@@ -1,0 +1,30 @@
+.selected-cards {
+  display: flex;
+  column-gap: 11px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url('../../images/checkbox-null.svg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+input[type="checkbox"]:checked + label {
+  background-color: #CB11AB;
+  background-image: url('../../images/checkbox.svg');
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 5px;
+}
+

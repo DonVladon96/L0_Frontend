@@ -1,0 +1,13 @@
+.main-cards__title {
+  position: relative;
+  padding: 0;
+  font-weight: 700;
+  z-index: 20;
+  margin: 11px 0 27px;
+  font-size: 28px;
+  line-height: 36px;
+  color:  #000;
+  /* Сайт/H1 */
+  font-style: normal;
+  letter-spacing: -0.28px;
+}

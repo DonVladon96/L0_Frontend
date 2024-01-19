@@ -1,0 +1,16 @@
+.selected-cards__selected-checkbox-all {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.selected-cards__selected-checkbox-all:checked ~ .selected-cards__icon {
+  background-color: #CB11AB;
+  background-image: url('../../../images/checkbox.svg');
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
