@@ -1,0 +1,55 @@
+.card__info {
+  margin-left: 16px;
+}
+
+.card__title {
+  color: #000;
+  /* Сайт/Body */
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card__attributes {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 8px;
+}
+
+.card__color {
+  color: #000;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  margin: 0;
+}
+
+.card__size {
+  color: #000;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  margin: 0;
+}
+
+.card__storage {
+  color: #9797AF;
+  margin: 8px 0 0;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+}
