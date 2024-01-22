@@ -1,0 +1,77 @@
+.items {
+  width: 100px;
+  height: 44px;
+  background-color: #FFF;
+  border: none;
+  border-radius: 8px;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.items__control {
+  display: flex;
+  width: 24px;
+  padding: 2px 7px 6px 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.items__control_minus {
+  display: flex;
+  width: 9px;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  /* Сайт/Lead */
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.2px;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+
+.items__current {
+  display: flex;
+  width: 44px;
+  height: 23px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  /* Сайт/Текст */
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.items__control_plus {
+  display: flex;
+  width: 9px;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  padding-bottom: 10px;
+  /* Сайт/Lead */
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.2px;
+}
