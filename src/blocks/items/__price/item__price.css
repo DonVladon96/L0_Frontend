@@ -1,0 +1,7 @@
+.item__price {
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  gap: 5px;
+}

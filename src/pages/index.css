@@ -37,7 +37,7 @@
 @import url(../blocks/corporation/corporation.css);
 @import url(../blocks/items/items.css);
 @import url(../blocks/wrapper-container/wrapper-container.css);
-/*@import url(../blocks/header/);*/
+@import url(../blocks/items/__price/item__price.css);
 
 
 /*@import url(../blocks/header/);*/
