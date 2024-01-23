@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 6px;
 }
 
 
@@ -20,6 +21,21 @@
   padding: 2px 7px 6px 8px;
   justify-content: center;
   align-items: center;
+
+  height: 32px;
+  width: 24px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.items__control:hover {
+  background-color: #f1f1f5;
+  transition: background-color .3s ease 0s;
+  cursor: pointer;
+  height: 16px;
+  width: 9px;
+  border-radius: 10px;
 }
 
 .items__control_minus {

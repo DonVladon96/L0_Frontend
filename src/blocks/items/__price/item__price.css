@@ -4,4 +4,60 @@
   align-items: flex-end;
   display: flex;
   gap: 5px;
+  margin-left: 56px;
 }
+
+.item__new-price {
+  padding: 0;
+  font-weight: 700;
+  margin: 0;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.item__new-price::after {
+  content: 'сом';
+  margin: 0;
+  padding: 0 0 0 5px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.item__price-wrapper {
+  flex-grow: 1;
+  position: relative;
+}
+
+.item__old-price {
+  display: block;
+  color: #9797AF;
+  text-decoration: line-through;
+  cursor: pointer;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.20);
+}
+
+.item__old-price::after {
+  content: 'сом';
+  margin: 0;
+  padding: 0 0 0 5px;
+  color:  #9797AF;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  text-decoration: line-through;
+
+}
+
+.product-item__old-price:hover ~ .discount {
+  display: flex;
+}
+

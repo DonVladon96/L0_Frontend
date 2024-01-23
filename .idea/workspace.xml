@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change afterPath="$PROJECT_DIR$/src/blocks/items/__price/item__price.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter/counter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/items/__price/item__price.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/items/__price/item__price.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/items/items.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/items/items.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +152,7 @@
       <workItem from="1705579951592" duration="8432000" />
       <workItem from="1705650259539" duration="11019000" />
       <workItem from="1705913597391" duration="11516000" />
-      <workItem from="1705997863209" duration="2278000" />
+      <workItem from="1705997863209" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />
