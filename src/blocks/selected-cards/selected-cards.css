@@ -12,7 +12,7 @@ label {
   display: inline-block;
   width: 22px;
   height: 22px;
-  background-image: url('../../images/checkbox-null.svg');
+  background-image: url('../../pages/images/checkbox-null.svg');
   background-size: cover;
   background-position: center;
 
@@ -20,7 +20,7 @@ label {
 
 input[type="checkbox"]:checked + label {
   background-color: #CB11AB;
-  background-image: url('../../images/checkbox.svg');
+  background-image: url('../../pages/images/checkbox.svg');
   background-size: 22px;
   background-position: center;
   background-repeat: no-repeat;
