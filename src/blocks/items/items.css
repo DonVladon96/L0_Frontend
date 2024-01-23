@@ -75,3 +75,55 @@
   line-height: 24px; /* 120% */
   letter-spacing: -0.2px;
 }
+
+.item__accessible {
+  color: #FF3B30;
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  margin-top: 8px;
+}
+
+.item__icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  column-gap: 16px;
+}
+
+.item__icon {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
+.item__icon_type_favorite {
+  -webkit-mask-image: url('../../images/like.svg');
+  mask-image: url('../../images/like.svg');
+}
+
+.item__icon_type_favorite:hover {
+  background-color: #CB11AB;
+}
+
+.item__icon_type_delete {
+  -webkit-mask-image: url('../../images/trash-icon.svg');
+  mask-image: url('../../images/trash-icon.svg');
+}
+
+.item__icon_type_delete:hover {
+  background-color: #CB11AB;
+}
+
+
