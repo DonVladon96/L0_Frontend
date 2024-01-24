@@ -17,7 +17,7 @@ export const userDataExample = [
       orgAddress: '129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 5',
     },
     quantity: 1,
-    available: 2,
+    available: "осталось " + 2 + " шт.",
     deliveryDate: [
       {
         1: ['2023-02-05', '2023-02-06'],
@@ -43,7 +43,7 @@ export const userDataExample = [
       orgAddress: '120477, Москва, улица Зеленая Сосна, 2, корпус 1, стр. 1, помещение 2, офис 47',
     },
     quantity: 200,
-    available: 1000,
+    available: " ",
     deliveryDate: [
       {
         184: ['2023-02-05', '2023-02-06'],
@@ -72,7 +72,7 @@ export const userDataExample = [
       orgAddress: '129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 19',
     },
     quantity: 2,
-    available: 2,
+    available: "осталось " + 2 + " шт.",
     deliveryDate: [
       {
         2: ['2023-02-05', '2023-02-06'],

@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change afterPath="$PROJECT_DIR$/src/pages/images/Frame 277132129.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/images/pens.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/card/__info/card__info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/card/__info/card__info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/card/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/items/__price/item__price.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/items/__price/item__price.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/items/items.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/items/items.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/wrapper-container/wrapper-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/wrapper-container/wrapper-container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardsData/cardsData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/renderProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/renderProducts.js" afterDir="false" />
     </list>
@@ -160,7 +157,7 @@
       <workItem from="1705913597391" duration="11516000" />
       <workItem from="1705997863209" duration="7233000" />
       <workItem from="1706016497447" duration="3969000" />
-      <workItem from="1706105581182" duration="6211000" />
+      <workItem from="1706105581182" duration="9260000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />

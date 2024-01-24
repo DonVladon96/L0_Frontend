@@ -22,6 +22,10 @@
   margin-top: 8px;
 }
 
+.card__attributes-custom {
+  margin-top: 0;
+}
+
 .card__color {
   color: #000;
   /* Сайт/Caption */

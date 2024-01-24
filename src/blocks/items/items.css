@@ -103,6 +103,10 @@
   margin-top: 8px;
 }
 
+.item__accessible-custom {
+  margin: 0;
+}
+
 .item__icons {
   display: flex;
   justify-content: flex-end;

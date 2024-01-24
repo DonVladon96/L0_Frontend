@@ -3,3 +3,7 @@
   flex-direction: column;
   margin-left: 268px;
 }
+
+.wrapper-container:nth-child(2) {
+  margin: 0;
+}

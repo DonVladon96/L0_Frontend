@@ -61,3 +61,11 @@
   display: flex;
 }
 
+.item__new-price_custom {
+  font-size: 16px;
+}
+
+.item__new-price-container {
+  margin-left: 24px;
+}
+

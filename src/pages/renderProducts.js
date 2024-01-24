@@ -11,7 +11,7 @@ function getProducts() {
 }
 
 function renderProducts(productsArray) {
-  productsArray.forEach(function (item) {
+  productsArray.forEach(function (item, index) {
     const productHTML = ` <li class="card">
           <div class="card__container">
             <div class="card__input-wrapper">
@@ -22,7 +22,7 @@ function renderProducts(productsArray) {
 
             <div class="card__info">
               <a href="/" class="card__title">${item.title}</a>
-              <div class="card__attributes">
+              <div class="card__attributes${index === 2 ? ' card__attributes-custom' : ''}">
                 <p class="card__color">${item.color || ''}</p>
                 <p class="card__size">${item.size || ''}</p>
               </div>
@@ -50,7 +50,7 @@ function renderProducts(productsArray) {
                 <button type="button" class="items__control items__control_plus" data-action="plus">+</button>
               </div>
               <!--Счетчик-->
-              <span class="item__accessible">Осталось 2 шт.</span>
+              <span class="item__accessible${index === 1 ? ' item__accessible-custom' : ''}">${item.available}</span>
 
               <!--              Кнопки лайка и удалить-->
               <div class="item__icons">
@@ -67,8 +67,8 @@ function renderProducts(productsArray) {
             </div>
 
             <!--              цена-->
-            <div class="item__price">
-              <span class="item__new-price">${item.oldPrice}</span>
+            <div class="item__price${index === 1 ? ' item__new-price-container' : ''}">
+              <span class="item__new-price${index === 1 ? ' item__new-price_custom' : ''}">${item.oldPrice}</span>
               <div class="item__price-wrapper">
                 <span class="item__old-price">${item.oldPrice}</span>
                 <div class="discount">
