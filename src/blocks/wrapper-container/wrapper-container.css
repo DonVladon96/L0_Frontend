@@ -1,4 +1,5 @@
 .wrapper-container {
   display: flex;
   flex-direction: column;
+  margin-left: 268px;
 }

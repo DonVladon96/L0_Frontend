@@ -12,31 +12,85 @@ function getProducts() {
 
 function renderProducts(productsArray) {
   productsArray.forEach(function (item) {
-    const productHTML = `<div class="col-md-6">
-      <div class="card mb-4" data-id="${item.id}">
-        <img class="product-img" src="img/roll/${item.imgSrc}" alt="">
-        <div class="card-body text-center">
-          <h4 class="item-title">${item.title}</h4>
-          <p><small data-items-in-box class="text-muted">${item.itemsInBox} шт.</small></p>
-          <div class="details-wrapper">
-            <!-- Счетчик -->
-            <div class="items counter-wrapper">
-              <div class="items__control" data-action="minus">-</div>
-              <div class="items__current" data-counter>1</div>
-              <div class="items__control" data-action="plus">+</div>
+    const productHTML = ` <li class="card">
+          <div class="card__container">
+            <div class="card__input-wrapper">
+              <input type="checkbox" id="myCheckbox">
+              <label class="card__lable" for="myCheckbox"></label>
             </div>
-            <!-- // Счетчик -->
-            <div class="price">
-              <div class="price__weight">${item.weight}г.</div>
-              <div class="price__currency">${item.price} ₽</div>
+            <img class="card__images" src="${item.image}" alt="футболка">
+
+            <div class="card__info">
+              <a href="/" class="card__title">${item.title}</a>
+              <div class="card__attributes">
+                <p class="card__color">${item.color || ''}</p>
+                <p class="card__size">${item.size || ''}</p>
+              </div>
+              <p class="card__storage">${item.seller}</p>
+
+              <div>
+                <div class="corporation">
+                  <p class="corporation__title">${item.organization}</p>
+                  <div class="corporation__icon">
+                    <div class="corporation__info">
+                      <p class="corporation__org-name">${item.organizationInfo.orgName}</p>
+                      <p class="corporation__requisites">${item.organizationInfo.orgName}</p>
+                      <p class="corporation__org-address">${item.organizationInfo.orgAddress}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="wrapper-container">
+              <!--Счетчик-->
+              <div class="items counter-wrapper">
+                <button type="button" class="items__control items__control_minus" data-action="minus">-</button>
+                <div class="items__current" data-counter>${item.quantity}</div>
+                <button type="button" class="items__control items__control_plus" data-action="plus">+</button>
+              </div>
+              <!--Счетчик-->
+              <span class="item__accessible">Осталось 2 шт.</span>
+
+              <!--              Кнопки лайка и удалить-->
+              <div class="item__icons">
+                <button
+                  class="item__icon item__icon_type_favorite"
+                  type="button">
+                </button>
+                <button
+                  class="item__icon item__icon_type_delete"
+                  type="button">
+                </button>
+              </div>
+              <!--              Кнопки лайка и удалить-->
+            </div>
+
+            <!--              цена-->
+            <div class="item__price">
+              <span class="item__new-price">${item.oldPrice}</span>
+              <div class="item__price-wrapper">
+                <span class="item__old-price">${item.oldPrice}</span>
+                <div class="discount">
+                  <div class="discount__column">
+                    <p class="discount__label" data-type="product-discount"></p>
+                    <p
+                      class="discount__label"
+                      data-type="person-discount"
+                    ></p>
+                  </div>
+                  <div class="discount__column">
+                    <p class="discount__item" data-type="product-discount"></p>
+                    <p
+                      class="discount__item"
+                      data-type="person-discount"
+                    ></p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <button data-cart type="button" class="btn btn-block btn-outline-warning">
-            + в корзину
-          </button>
-        </div>
-      </div>
-    </div>`;
+        </li>`;
     productsContainer.insertAdjacentHTML('beforeend', productHTML);
   });
 }

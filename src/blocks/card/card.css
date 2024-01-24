@@ -1,5 +1,6 @@
 .card {
   list-style: none;
+  margin-bottom: 19px;
 }
 
 .card__container {
