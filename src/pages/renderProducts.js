@@ -10,13 +10,21 @@ function getProducts() {
   renderProducts(userDataExample);
 }
 
+const allCheckbox = document.querySelector('#AllCheckbox');
+allCheckbox.addEventListener('change', function () {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach(function (checkbox) {
+    checkbox.checked = allCheckbox.checked;
+  });
+});
+
 function renderProducts(productsArray) {
   productsArray.forEach(function (item, index) {
     const productHTML = ` <li class="card">
           <div class="card__container">
             <div class="card__input-wrapper">
-              <input type="checkbox" id="myCheckbox">
-              <label class="card__lable" for="myCheckbox"></label>
+              <input type="checkbox" id="myCheckbox${index}">
+              <label class="card__lable" for="myCheckbox${index}"></label>
             </div>
             <img class="card__images" src="${item.image}" alt="футболка">
 

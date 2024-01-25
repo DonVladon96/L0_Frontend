@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change afterPath="$PROJECT_DIR$/src/blocks/basker/basket.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/delivery-info/devivery-info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/images/edit-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/images/mir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/images/price shipping.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counter/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/renderProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/renderProducts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,7 @@
       <workItem from="1706016497447" duration="3969000" />
       <workItem from="1706105581182" duration="9330000" />
       <workItem from="1706172601155" duration="2124000" />
-      <workItem from="1706183505141" duration="129000" />
+      <workItem from="1706183505141" duration="572000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />
