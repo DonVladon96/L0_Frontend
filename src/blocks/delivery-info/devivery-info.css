@@ -1,0 +1,22 @@
+.devivery-info {
+  box-sizing: border-box;
+  position: relative;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: inherit;
+  border-radius: 8px;
+  padding: 2px 0 2px 30px;
+}
+
+.devivery-info::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 100%;
+  background-image: url('../../pages/images/price shipping.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}

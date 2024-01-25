@@ -38,6 +38,8 @@
 @import url(../blocks/items/items.css);
 @import url(../blocks/wrapper-container/wrapper-container.css);
 @import url(../blocks/items/__price/item__price.css);
+@import url(../blocks/basker/basket.css);
+@import url(../blocks/delivery-info/devivery-info.css);
 
 
 /*@import url(../blocks/header/);*/

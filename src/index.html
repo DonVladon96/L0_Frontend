@@ -67,6 +67,126 @@
       </ul>
     </section>
 
+    <section class="basket">
+      <div class="basket__sidebar basket-order">
+        <div>
+          <h2 class="basket-order__total">
+            <span>Итого</span>
+            <span id="basket-total-price"></span>
+          </h2>
+          <div class="basket-order__total-row">
+            <span id="basket-total-count"></span>
+            <span id="basket-total-old-price"></span>
+          </div>
+          <div class="basket-order__total-row">
+            <span>Скидка</span>
+            <span id="basket-total-discount"></span>
+          </div>
+          <div class="basket-order__total-row">
+            <span>Доставка</span>
+            <span>Бесплатно</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="basket-order__delivery">
+            <h3 class="basket-order__title" data-type="delivery-type">
+              Доставка в&nbsp;пункт выдачи
+            </h3>
+            <button
+              class="basket-order__btn-edit"
+              type="button"
+              data-type="btn-sidebar-choose-address"
+              aria-label="Изменить способ доставки. "
+            ></button>
+          </div>
+          <p class="basket-order__address">
+            Бишкек, улица Ахматбека Суюмбаева, 12/1
+          </p>
+          <button
+            class="basket-order__date"
+            type="button"
+            data-type="delivery_total-date"
+          >
+            5&ndash;8 фев
+          </button>
+          <div class="devivery-info devivery-info_sidebar">
+            Обратная доставка товаров на&nbsp;склад при отказе &mdash;
+            <span class="delivery-info__accent">бесплатно</span>
+            <div
+              class="delivery-info__tooltip delivery-info__tooltip_sidebar"
+            >
+              Если товары вам не подойдут, мы вернем их обратно на склад —
+              это бесплатно
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="basket-order__card">
+            <h3 class="basket-order__title">Оплата картой</h3>
+            <button
+              class="basket-order__btn-edit"
+              type="button"
+              data-type="btn-sidebar-choose-pay"
+              aria-label="Изменить способ оплаты. "
+            ></button>
+          </div>
+          <div class="pay pay_type_sidebar">
+            <div class="pay__wrapper pay__wrapper_type_sidebar">
+              <img
+                class="pay__icon"
+                src="<%=require('../src/pages/images/mir.svg')%>"
+                alt="Иконка карты пользователя. "
+              />
+              <div class="pay__number pay__number_type_sidebar">
+                номер карты
+              </div>
+            </div>
+          </div>
+
+          <div class="basket-order__payment">
+            <div class="basket-order__payment-wrapper">
+              <input
+                class="basket-order__checkbox"
+                type="checkbox"
+                data-type="checkbox-sidebar-payment-type"
+              />
+              <span
+                class="basket-order__checkbox-decor"
+                data-type="checkbox-sidebar-payment-type"
+              ></span>
+              <span class="basket-order__checkbox-text"
+              >Списать оплату сразу</span
+              >
+            </div>
+            <p class="basket-order__payment-info">
+              Спишем оплату с&nbsp;карты при получении
+            </p>
+          </div>
+        </div>
+
+        <div class="basket-order__order">
+          <button
+            class="basket-order__btn basket-order__btn_type_small"
+            type="submit"
+            data-type="btn-sidebar-total"
+          >
+            Заказать
+          </button>
+          <p class="basket-order__oferta">
+            Соглашаюсь
+            <a class="basket-order__oferta-link" href="#" target="_blank">
+              с правилами пользования торговой площадкой
+            </a>
+            и
+            <a class="basket-order__oferta-link" href="#" target="_blank">
+              возврата
+            </a>
+          </p>
+        </div>
+    </section>
+
 
   </main>
 
