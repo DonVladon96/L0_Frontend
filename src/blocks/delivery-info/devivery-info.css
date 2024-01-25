@@ -20,3 +20,54 @@
   background-position: center;
   background-size: 100%;
 }
+
+.devivery-info_sidebar {
+  position: relative;
+  padding: 8px 8px 8px 38px;
+  min-height: 32px;
+  background-color: #F6F6FA;
+}
+
+.devivery-info_sidebar::after {
+  left: 8px;
+}
+
+.delivery-info__accent {
+  /* Сайт/Caption */
+  font-family: "Segoe UI";
+  color: #0CB477;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(12, 180, 119, .2);
+  cursor: pointer;
+}
+
+.delivery-info__accent:hover + .delivery-info__tooltip {
+  display: block;
+}
+
+.delivery-info__tooltip {
+  box-sizing: border-box;
+  display: none;
+  position: absolute;
+  bottom: -60px;
+  margin: 0;
+  padding: 10px 16px 14px;
+  width: 288px;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.30), 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+  left: 249px;
+  transform: translateX(0);
+}
+
+.delivery-info__tooltip_sidebar {
+  top: 47px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+

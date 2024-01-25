@@ -122,7 +122,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="basket-order-container">
           <div class="basket-order__card">
             <h3 class="basket-order__title">Оплата картой</h3>
             <button
@@ -147,11 +147,8 @@
 
           <div class="basket-order__payment">
             <div class="basket-order__payment-wrapper">
-              <input
-                class="basket-order__checkbox"
-                type="checkbox"
-                data-type="checkbox-sidebar-payment-type"
-              />
+                <input type="checkbox" data-type="checkbox-sidebar-payment-type" class="basket-order__checkbox" id="myCheckbox${index}">
+                <label class="card__lable" for="myCheckbox${index}"></label>
               <span
                 class="basket-order__checkbox-decor"
                 data-type="checkbox-sidebar-payment-type"

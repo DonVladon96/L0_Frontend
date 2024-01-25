@@ -10,11 +10,14 @@ function getProducts() {
   renderProducts(userDataExample);
 }
 
+//выбираем все чекбоксы
 const allCheckbox = document.querySelector('#AllCheckbox');
 allCheckbox.addEventListener('change', function () {
   const checkboxes = document.querySelectorAll('input[type="checkbox"]');
   checkboxes.forEach(function (checkbox) {
-    checkbox.checked = allCheckbox.checked;
+    if (checkbox.getAttribute('data-type') !== 'checkbox-sidebar-payment-type') {
+      checkbox.checked = allCheckbox.checked;
+    }
   });
 });
 
