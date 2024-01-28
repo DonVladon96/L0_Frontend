@@ -1,6 +1,7 @@
 .basket {
   flex-grow: 1;
   margin: 0 0 16px 0;
+  background-color: #F6F6FA;
 }
 
 @media screen and (min-width: 1024px) {

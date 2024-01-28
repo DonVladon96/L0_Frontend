@@ -22,8 +22,8 @@ const userDataExample = {
     ],
     pickupPoint: [
       {
-        address: 'г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1',
-        rate: null,
+        address: 'Бишкек, улица Ахматбека Суюмбаева, 12/1',
+        rate: 4.99,
         officeHours: 'Ежедневно с 10 до 21 ',
       },
       {
@@ -92,7 +92,7 @@ const userOrderExample = [
   },
   {
     id: 12002,
-    name: 'Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe',
+    name: 'Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe',
     image: productIconCase,
     color: 'прозрачный',
     size: null,
@@ -114,8 +114,8 @@ const userOrderExample = [
       }
     ],
     priceInfo: {
-      discount: 5,
-      discountUser: 5,
+      discount: 38,
+      discountUser: 10,
     },
     oldPrice: 11500,
   },
@@ -140,10 +140,10 @@ const userOrderExample = [
       }
     ],
     priceInfo: {
-      discount: null,
+      discount: 38,
       discountUser: 10,
     },
-    oldPrice: 690,
+    oldPrice: 475,
   },
 ]
 

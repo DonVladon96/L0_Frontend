@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1024px) {
   .recipient__wrapper {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-areas:
       'first-name first-name first-name last-name last-name last-name'
       'email email phone phone payer-number payer-number';
