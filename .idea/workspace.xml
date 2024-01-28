@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/basket/__content-section/basket__content-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/basket/__content-section/basket__content-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/product-item/__title/product-item__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product-item/__title/product-item__title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/product/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product/product.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,7 @@
       <workItem from="1706285396681" duration="1298000" />
       <workItem from="1706288202326" duration="1334000" />
       <workItem from="1706438895316" duration="2170000" />
-      <workItem from="1706448206405" duration="1553000" />
+      <workItem from="1706448206405" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />
