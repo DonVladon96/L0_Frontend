@@ -1,25 +1,6 @@
 .card {
-  list-style: none;
-  margin-bottom: 18px;
-}
-
-.card__container {
-  display: flex;
-  padding-top: 13px;
-}
-
-.card__input-wrapper {
-  padding-top: 0;
-  width: 22px;
-  height: 96px;
   display: flex;
   align-items: center;
-  margin: 0 12px 0 0;
-}
-
-.card__images {
-  width: 72px;
-  height: 96px;
-  border-radius: 8px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%), lightgray 50%;
+  margin: 0;
+  padding: 0 0 14px;
 }

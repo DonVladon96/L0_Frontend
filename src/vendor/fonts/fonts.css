@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'SegoeUI';
   src: url('./SegoeUI.woff'),
-  url('./SegoeUI.woff2');
+       url('./SegoeUI.woff2');
   font-style: normal;
   font-weight: 400;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'SegoeUI';
   src: url('./SegoeUI-SemiBold.woff'),
-  url('./SegoeUI-SemiBold.woff2');
+       url('./SegoeUI-SemiBold.woff2');
   font-style: normal;
   font-weight: 600;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'SegoeUI';
   src: url('./SegoeUI-Bold.woff'),
-  url('./SegoeUI-Bold.woff2');
+       url('./SegoeUI-Bold.woff2');
   font-style: normal;
   font-weight: 700;
 }

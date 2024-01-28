@@ -52,8 +52,8 @@
   width: 20px;
   height: 20px;
   background-color: #CB11AB;
-  -webkit-mask-image: url('../../pages/images/edit-icon.svg');
-  mask-image: url('../../pages/images/edit-icon.svg');
+  -webkit-mask-image: url('../../images/edit-icon.svg');
+  mask-image: url('../../images/edit-icon.svg');
   cursor: pointer;
 }
 
@@ -151,7 +151,7 @@
   left: 0;
   width: 13px;
   height: 24px;
-  background-image: url('../../pages/images/Frame 277132151.svg');
+  background-image: url('../../images/Frame 277132151.svg');
   background-size: 100%;
   background-repeat: no-repeat;
 }

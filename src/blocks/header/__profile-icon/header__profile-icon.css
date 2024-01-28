@@ -1,5 +1,5 @@
 .header__profile-icon {
-  background-image: url("../../../pages/images/profile-icon.svg");
+  background-image: url("../../../images/profile-icon.svg");
   width: 28px;
   height: 28px;
   flex-shrink: 0;

@@ -1,20 +1,23 @@
 .header__logo {
-  font-style: normal;
+  margin: 0;
+  padding: 0 0 8px 0;
+  color: var(--color-system-white);
+  font-size: 27px;
+  line-height: 20px;
   font-weight: 600;
-  font-variant: all-small-caps;
   border: none;
   background-color: transparent;
   text-decoration: none;
   text-transform: lowercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  width: 109px;
-  font-size: 30px;
-  line-height: 24px; /* 85.714% */
-  letter-spacing: 2.5px;
-  margin: 0;
-  padding: 0;
-  color: #FFF;
+  font-variant: all-small-caps;
+  letter-spacing: 2.7px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__logo {
+    width: 109px;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 2.4px;
+  }
 }

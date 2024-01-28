@@ -1,6 +1,6 @@
-import productTShort from '../pages/images/tshots.png'
-import productCase from '../pages/images/Frame 277132129.png'
-import productPens from '../pages/images/pens.png'
+import productTShort from '../images/tshots.png'
+import productCase from '../images/Frame 277132129.png'
+import productPens from '../images/pens.png'
 
 export const userDataExample = [
   {

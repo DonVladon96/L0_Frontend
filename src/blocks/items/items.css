@@ -129,8 +129,8 @@
 }
 
 .item__icon_type_favorite {
-  -webkit-mask-image: url('../../pages/images/like.svg');
-  mask-image: url('../../pages/images/like.svg');
+  -webkit-mask-image: url('../../images/like.svg');
+  mask-image: url('../../images/like.svg');
 }
 
 .item__icon_type_favorite:hover {
@@ -138,8 +138,8 @@
 }
 
 .item__icon_type_delete {
-  -webkit-mask-image: url('../../pages/images/trash-icon.svg');
-  mask-image: url('../../pages/images/trash-icon.svg');
+  -webkit-mask-image: url('../../images/trash-icon.svg');
+  mask-image: url('../../images/trash-icon.svg');
 }
 
 .item__icon_type_delete:hover {
