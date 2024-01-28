@@ -1,5 +1,5 @@
 .product-item__icon_type_favorite {
-  -webkit-mask-image: url('../../../../images/icons/icon-favorite.svg');
+  -webkit-mask-image: url('../../../../images/icons/icon-like.svg');
   mask-image: url('../../../../images/icons/icon-favorite.svg');
 }
 

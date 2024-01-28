@@ -45,3 +45,22 @@ window.addEventListener('click', function (event) {
     calcCartPriceAndDelivery();
   }
 });
+
+
+// Находим кнопку с классом "product-item__icon_type_favorite"
+const favoriteButton = document.querySelector('.product-item__icon_type_favorite');
+
+// Слушаем событие "click" на кнопке
+favoriteButton.addEventListener('click', function() {
+  // Создаем новый элемент "img"
+  const likeImage = document.createElement('img');
+
+  // Устанавливаем путь к изображению лайка
+  likeImage.src = '../../images/icons/icon-like.svg';
+
+  // Добавляем класс "like-image" для стилизации
+  likeImage.classList.add('like-image');
+
+  // Вставляем изображение лайка перед кнопкой
+  favoriteButton.parentNode.insertBefore(likeImage, favoriteButton);
+});

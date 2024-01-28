@@ -9,3 +9,9 @@
     margin-bottom: 0;
   }
 }
+
+.like-image {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/icons/icon-like.svg");
+}
