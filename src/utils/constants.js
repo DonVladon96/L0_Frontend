@@ -41,22 +41,22 @@ const userDataExample = {
   cards: [
     {
       cardNumber: '1234 56•• •••• 1234',
-      cardDate: '07/30',
+      cardDate: '01/30',
       cardUrlIcon: cardIconMir,
     },
     {
       cardNumber: '1234 56•• •••• 1234',
-      cardDate: '02/28',
+      cardDate: '01/30',
       cardUrlIcon: cardIconVisa,
     },
     {
       cardNumber: '1234 56•• •••• 1234',
-      cardDate: '05/29',
+      cardDate: '01/30',
       cardUrlIcon: cardIconMasterCard,
     },
     {
       cardNumber: '1234 56•• •••• 1234',
-      cardDate: '12/24',
+      cardDate: '01/30',
       cardUrlIcon: cardIconMaetro,
     }
   ]
@@ -81,7 +81,7 @@ const userOrderExample = [
     available: 2,
     deliveryDate: [
       {
-        1: ['2023-02-05', '2023-02-06'],
+        '': ['2023-02-05', '2023-02-06'],
       }
     ],
     priceInfo: {
@@ -110,7 +110,7 @@ const userOrderExample = [
         184: ['2023-02-05', '2023-02-06'],
       },
       {
-        816: ['2023-02-07', '2023-02-08'],
+        16: ['2023-02-07', '2023-02-08'],
       }
     ],
     priceInfo: {
