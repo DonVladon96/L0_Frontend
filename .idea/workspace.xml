@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/product-item/__icon/_type/product-item__icon_type_favorite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product-item/__icon/_type/product-item__icon_type_favorite.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,7 @@
       <workItem from="1706448206405" duration="2146000" />
       <workItem from="1706456964551" duration="3376000" />
       <workItem from="1706470458856" duration="537000" />
-      <workItem from="1706518137920" duration="393000" />
+      <workItem from="1706518137920" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />
