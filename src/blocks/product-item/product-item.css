@@ -38,6 +38,10 @@
     opacity: 1;
   }
 
+  .like-active {
+    opacity: 1;
+  }
+
   .product-item:last-child {
     padding-bottom: 0;
   }

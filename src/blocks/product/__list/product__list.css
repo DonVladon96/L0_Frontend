@@ -12,3 +12,9 @@
     padding: 18px 16px 22px 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .product__list {
+    padding: 20px 0 7px 0;
+  }
+}

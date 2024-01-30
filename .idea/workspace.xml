@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="72208b8b-0538-495d-9c1d-539fd5003747" name="Changes" comment="Проверка гита">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/product-item/__icon/_type/product-item__icon_type_favorite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product-item/__icon/_type/product-item__icon_type_favorite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/accordion/__inner/accordion__inner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/accordion/__inner/accordion__inner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/basker/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/basker/basket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/basket-order/__btn/basket-order__btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/basket-order/__btn/basket-order__btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/basket-order/__payment/basket-order__payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/basket-order/__payment/basket-order__payment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/basket-order/__total/basket-order__total.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/basket-order/__total/basket-order__total.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/devilery-info/_sidebar/delivery-info_sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/devilery-info/_sidebar/delivery-info_sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/product-item/product-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product-item/product-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/product/__list/product__list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product/__list/product__list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/product/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/product/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counter/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +190,8 @@
       <workItem from="1706448206405" duration="2146000" />
       <workItem from="1706456964551" duration="3376000" />
       <workItem from="1706470458856" duration="537000" />
-      <workItem from="1706518137920" duration="600000" />
+      <workItem from="1706518137920" duration="2250000" />
+      <workItem from="1706620323202" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="Проверка гита">
       <option name="closed" value="true" />

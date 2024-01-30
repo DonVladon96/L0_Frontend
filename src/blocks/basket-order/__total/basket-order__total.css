@@ -2,8 +2,14 @@
   margin: 0 0 8px 0;
   display: flex;
   justify-content: space-between;
+  color: #000;
+  /* Сайт/Н3-new */
+  font-family: "Segoe UI";
   font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 28px;
+  letter-spacing: -0.2px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -12,3 +18,5 @@
     line-height: 32px;
   }
 }
+
+

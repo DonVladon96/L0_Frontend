@@ -2,12 +2,21 @@
   padding: 0 0 16px 0;
 }
 
-@media screen and (min-width: 1024px) {
+.margin {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 1026px) {
   .product {
     padding-bottom: 3px;
   }
 }
 
-.margin {
-  margin-top: 40px;
+@media screen and (max-width: 1025px) {
+  .margin {
+    margin-top: 2px;
+  }
+
 }
+
+

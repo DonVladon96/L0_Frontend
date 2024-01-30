@@ -164,3 +164,29 @@
   border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
+.basket__sidebar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket-order__itogs {
+  color: #000;
+  /* Сайт/Н3-new */
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1025px) {
+  .basket__sidebar-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}

@@ -16,8 +16,15 @@
   background-color: var(--color-btn-hover);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1026px) {
   .basket-order__btn {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .basket-order__btn {
+    margin: 19px 0 12px;
+    padding: 8px 32px 12px;
   }
 }

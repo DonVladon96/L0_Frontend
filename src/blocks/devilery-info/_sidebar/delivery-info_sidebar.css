@@ -9,8 +9,14 @@
   left: 8px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1026px) {
   .devivery-info_sidebar {
     background-color: var(--color-system-smoky);
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .devivery-info_sidebar {
+   padding: 9px 8px 22px 38px;
   }
 }

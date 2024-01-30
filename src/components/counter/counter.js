@@ -61,6 +61,19 @@ favoriteButton.addEventListener('click', function() {
   // Добавляем класс "like-image" для стилизации
   likeImage.classList.add('like-image');
 
+
   // Вставляем изображение лайка перед кнопкой
   favoriteButton.parentNode.insertBefore(likeImage, favoriteButton);
+
+});
+
+const favoriteButton = document.querySelector('.product-item__icon_type_favorite');
+const iconsContainer = document.querySelector('.product-item__icons');
+
+favoriteButton.addEventListener('click', function() {
+  if (iconsContainer.style.opacity === '1') {
+    iconsContainer.style.opacity = '';
+  } else {
+    iconsContainer.style.opacity = '1';
+  }
 });
